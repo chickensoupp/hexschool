@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrap {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+.wrap .header {
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+  gap: 8px;
+}
+.wrap .header > h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: #3B3B3B;
+}
+.wrap .header > p {
+  line-height: 24px;
+  color: #919191;
+}
+.wrap .description {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 56px 40px 56px;
+}
+.wrap .description .text {
+  color: #1E1E1E;
+  padding: 0px 72px 0px 0px;
+}
+.wrap .description .info {
+  color: #5B5B5B;
+  padding: 0px 0px 0px 24px;
+  border-left: 1px solid #C1C1C1;
+  gap: 8px;
+}
+.wrap .cards {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 0px 80px 0px;
+  gap: 56px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .cards > li {
+  max-width: 70%;
+  text-align: center;
+}
+.wrap .cards > li > img {
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+.wrap .cards > li > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #1E1E1E;
+  margin-bottom: 16px;
+}
+.wrap .cards > li > p {
+  color: #5B5B5B;
+}/*# sourceMappingURL=index.css.map */
