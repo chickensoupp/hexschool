@@ -1,1 +1,1 @@
-https://chickensoupp.github.io/hexschool/RWD/index.html
+https://chickensoupp.github.io/hexschool
