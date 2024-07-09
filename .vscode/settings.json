@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.multiRootWorkspaceName": "RWD"
+  "liveServer.settings.multiRootWorkspaceName": "RWD",
+  "liveServer.settings.port": 5501
 }
